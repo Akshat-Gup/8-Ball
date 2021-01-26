@@ -1,0 +1,37 @@
+.eightballback {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-color: black;
+	width: 250px;
+	height: 250px;
+  	position: absolute;
+	top: 35%;
+	left: 50%;
+  	transform: translateX(-50%);
+}
+.eightballfront {
+	background-color: black;
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	top: 14%;
+	left: 50%;
+  	transform: translateX(-50%);
+}
+h3 {
+	text-align: center;
+	width: 80%;
+	padding: 30% 0 0 0;
+	margin: auto;
+	z-index: 1000;
+	font-size: 8rem;
+	overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.rotate {
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
