@@ -20,6 +20,7 @@
   	transform: translateX(-50%);
 }
 h3 {
+	cursor: pointer;
 	text-align: center;
 	width: 80%;
 	padding: 30% 0 0 0;
