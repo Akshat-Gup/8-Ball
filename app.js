@@ -6,8 +6,7 @@ ball.addEventListener("click", () => {
 	setTimeout(() => {
 		text.classList.remove("rotate");
 		let index = Math.floor(Math.random() * responses.length);
-		console.log(index);
-		text.style.fontSize = '2em';
+		text.style.fontSize = '3em';
 		text.style.padding = '30% 0 0 0';
 		text.textContent = responses[index];
 	}, 1000);
