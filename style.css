@@ -32,6 +32,11 @@ h3 {
 	font-size: 6rem;
     transition-duration: 0.8s;
     transition-property: transform;
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .rotate {
